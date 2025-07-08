@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Electric Billing System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="videos/background.mp4" type="video/mp4">
+        Your browser does not support this video.
+    </video>
+
+    <div class="page-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="/images/energy-logo-design.png" alt="Logo" class="logo">
+                <h2>Electric Billing</h2>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="performance.html">Performance</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">Billing & Payments</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="bill-history.html">View Bill / History</a></li>
+                        <li><a href="payment.html">Make Payment</a></li>
+                        <li><a href="calculator.html">Bill Calculator</a></li>
+                        <li><a href="disbursement.html">Disbursement Progress</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">Support & Info</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="request.html">Service Requests</a></li>
+                        <li><a href="support.html">Support Center</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">About</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout-btn">
+                    <span>Log Out</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2.a.5.5 0 0 0 1 0v-2a1.5 1.5 0 0 0-1.5-1.5h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/><path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg>
+                </a>
+            </div>
+        </aside>
+
+        <div class="content-wrapper">
+            <header class="top-navbar">
+                <div class="navbar-left">
+                    <h1 class="page-title">Support Center</h1>
+                </div>
+                <div class="navbar-right">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                    </div>
+                    <div class="profile-dropdown">
+                        <img src="/images/freen.webp" alt="User" class="profile-pic">
+                        <div class="profile-menu">
+                            <div class="profile-header"><strong>Yannie Yan</strong><small>Consumer #22467252</small></div>
+                            <a href="bill-history.html">My Profile</a>
+                            <a href="login.html" class="logout">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content">
+                 <div class="card">
+                    <h3 class="card-header">Get Help & Support</h3>
+                    <p>We're here to help. Choose the best way to reach us.</p>
+                </div>
+                <div class="grid-container">
+                    <div class="card">
+                        <h3 class="card-header">Email Support</h3>
+                        <p>For non-urgent issues, send us an email. We'll get back to you within 24 hours.</p>
+                        <a href="mailto:support@electricbilling.com" class="btn btn-primary" style="margin-top: 15px;">Email Us</a>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">Phone Support</h3>
+                        <p>For immediate assistance, call our 24/7 support line.</p>
+                         <a href="tel:1912" class="btn btn-accent" style="margin-top: 15px;">Call 1912</a>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">Quick Answers</h3>
+                        <p>Find answers to the most common questions in our FAQ section.</p>
+                        <a href="faq.html" class="btn btn-primary" style="margin-top: 15px;">Visit FAQ</a>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">Service Request</h3>
+                        <p>To report a specific issue with your account or billing, please submit a ticket.</p>
+                        <a href="request.html" class="btn btn-primary" style="margin-top: 15px;">File a Request</a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

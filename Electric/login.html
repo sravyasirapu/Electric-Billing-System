@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Electric Billing System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Page-specific styles to match register.html -->
+    <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            background-color: #e0f7fa; /* Fallback color */
+        }
+        .auth-container { /* Renamed for reusability */
+            background: rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            width: 100%;
+            max-width: 450px; /* Smaller width for a simpler form */
+        }
+        .auth-container h1 {
+            text-align: center;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+        }
+        .form-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+        .form-options a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        .switch-link {
+            text-align: center;
+            margin-top: 25px;
+        }
+        .switch-link a {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="videos/background.mp4" type="video/mp4">
+        Your browser does not support this video.
+    </video>
+    
+    <div class="auth-container">
+        <h1>Welcome Back!</h1>
+        <form action="index.html" method="GET"> <!-- Redirects to dashboard on successful login -->
+            <div class="form-group">
+                <label>Email ID</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <div class="form-options">
+                <label><input type="checkbox" name="remember"> Remember Me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px; padding: 15px;">Log In</button>
+        </form>
+        <div class="switch-link">
+            <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>

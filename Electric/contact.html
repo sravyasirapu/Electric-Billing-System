@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Electric Billing System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="videos/background.mp4" type="video/mp4">
+        Your browser does not support this video.
+    </video>
+
+    <div class="page-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="/images/energy-logo-design.png" alt="Logo" class="logo">
+                <h2>Electric Billing</h2>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="performance.html">Performance</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">Billing & Payments</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="bill-history.html">View Bill / History</a></li>
+                        <li><a href="payment.html">Make Payment</a></li>
+                        <li><a href="calculator.html">Bill Calculator</a></li>
+                        <li><a href="disbursement.html">Disbursement Progress</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">Support & Info</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="request.html">Service Requests</a></li>
+                        <li><a href="support.html">Support Center</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">About</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout-btn">
+                    <span>Log Out</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2.a.5.5 0 0 0 1 0v-2a1.5 1.5 0 0 0-1.5-1.5h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/><path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg>
+                </a>
+            </div>
+        </aside>
+
+        <div class="content-wrapper">
+            <header class="top-navbar">
+                <div class="navbar-left">
+                    <h1 class="page-title">Contact Us</h1>
+                </div>
+                <div class="navbar-right">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                    </div>
+                    <div class="profile-dropdown">
+                        <img src="/images/freen.webp" alt="User" class="profile-pic">
+                        <div class="profile-menu">
+                            <div class="profile-header"><strong>Yannie Yan</strong><small>Consumer #22467252</small></div>
+                            <a href="bill-history.html">My Profile</a>
+                            <a href="login.html" class="logout">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content">
+                <div class="grid-container" style="grid-template-columns: 2fr 1fr; align-items: flex-start;">
+                    <div class="card">
+                        <h3 class="card-header">Send Us a Message</h3>
+                        <p>Have a question or need to contact us directly? Fill out the form below.</p>
+                        <form onsubmit="event.preventDefault(); alert('Message sent successfully!');" style="margin-top:20px;">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">Contact Information</h3>
+                        <p style="margin-bottom: 15px;"><strong>Email:</strong><br> <a href="mailto:support@electricbilling.com">support@electricbilling.com</a></p>
+                        <p style="margin-bottom: 15px;"><strong>Phone:</strong><br> <a href="tel:1912">1912</a> (24/7 Support)</p>
+                        <p><strong>Address:</strong><br> 123 Power Grid Lane, Hyderabad, Telangana, India</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

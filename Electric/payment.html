@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Payment - Electric Billing System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="videos/background.mp4" type="video/mp4">
+        Your browser does not support this video.
+    </video>
+
+    <div class="page-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="/images/energy-logo-design.png" alt="Logo" class="logo">
+                <h2>Electric Billing</h2>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="performance.html">Performance</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">Billing & Payments</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="bill-history.html">View Bill / History</a></li>
+                        <li><a href="payment.html">Make Payment</a></li>
+                        <li><a href="calculator.html">Bill Calculator</a></li>
+                        <li><a href="disbursement.html">Disbursement Progress</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">Support & Info</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="request.html">Service Requests</a></li>
+                        <li><a href="support.html">Support Center</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-dropdown-toggle">About</a>
+                    <ul class="nav-dropdown-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="login.html" class="logout-btn">
+                    <span>Log Out</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2.a.5.5 0 0 0 1 0v-2a1.5 1.5 0 0 0-1.5-1.5h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/><path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg>
+                </a>
+            </div>
+        </aside>
+
+        <div class="content-wrapper">
+            <header class="top-navbar">
+                <div class="navbar-left">
+                    <h1 class="page-title">Make Payment</h1>
+                </div>
+                <div class="navbar-right">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                    </div>
+                    <div class="profile-dropdown">
+                        <img src="/images/freen.webp" alt="User" class="profile-pic">
+                        <div class="profile-menu">
+                            <div class="profile-header"><strong>Yannie Yan</strong><small>Consumer #22467252</small></div>
+                            <a href="bill-history.html">My Profile</a>
+                            <a href="login.html" class="logout">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content">
+                <div class="grid-container" style="grid-template-columns: 2fr 1fr; align-items: flex-start;">
+                    
+                    <!-- Payment Form Card -->
+                    <div class="card">
+                        <h3 class="card-header">Payment Details</h3>
+                        <p>Choose your preferred method to pay your bill.</p>
+                        <form action="#" method="POST" style="margin-top:20px;">
+                            <div class="form-group">
+                                <label for="consumerNumber">Consumer Number</label>
+                                <input type="text" id="consumerNumber" name="consumer_number" value="22467252" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Amount (₹)</label>
+                                <input type="text" id="amount" name="amount" value="1250.00" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="paymentMethod">Payment Method</label>
+                                <select id="paymentMethod" name="payment_method" required>
+                                    <option value="" disabled selected>Select a method</option>
+                                    <option value="upi">UPI</option>
+                                    <option value="credit_card">Credit Card</option>
+                                    <option value="debit_card">Debit Card</option>
+                                    <option value="net_banking">Net Banking</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 15px;">Pay Securely</button>
+                        </form>
+                    </div>
+
+                    <!-- QR Code Card -->
+                    <div class="card" style="text-align: center;">
+                        <h3 class="card-header">OR Scan & Pay</h3>
+                        <!-- Corrected image path -->
+                        <img src="/images/cleaned_qr.png" alt="Scan QR Code to Pay" style="max-width: 180px; border-radius: 8px; border: 1px solid #ddd;">
+                        <p style="margin-top: 15px; color: #666; font-size: 0.9rem;">Use any UPI app to scan the code and complete your payment instantly.</p>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
