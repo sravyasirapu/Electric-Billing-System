@@ -1,5 +1,4 @@
 # Electric-Billing-System
-# Electric Billing System - Front-End Dashboard
 A modern, responsive, and feature-rich front-end application designed to provide a user-friendly interface for managing electricity bills. This project transforms a traditionally complex process into a seamless and intuitive digital experience.
 
 ✨ Key Features
