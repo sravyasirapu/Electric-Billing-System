@@ -17,6 +17,13 @@ This project is a comprehensive front-end implementation with a wide range of fe
 *   📱 Fully Responsive Design: A consistent and accessible user experience across all devices, from desktops to mobile phones.
 *    navegation intuitiva: A collapsible sidebar and a sticky top navbar ensure easy navigation without cluttering the interface.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ ## 🎥 Demo Preview
+
+![App Demo](https://github.com/sravyasirapu/Electric-Billing-System/blob/61d95eb49a4cbbd1ef78f859cf2a296a6dbeefbe/projectpreview.gif)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  💻 Tech Stack & Design
 
 This project was built from the ground up using core front-end technologies, with a focus on clean code and modern design patterns.
@@ -36,17 +43,7 @@ This project was built from the ground up using core front-end technologies, wit
 
 The project is organized with a clear and scalable file structure, separating assets and logic for better maintainability.
 
-[📷prieview] 
 
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/64c270db48c447357c09ea5fe8d4ba3dc7098624/127.0.0.1_5500_index.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_performance.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_bill-history.html%20(1).png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_payment.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_calculator.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_disbursement.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_request.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_support.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_faq.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/baf1c774916e52f02566bf722d3060e883bccdc7/127.0.0.1_5500_about.html.png)
-![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/baf1c774916e52f02566bf722d3060e883bccdc7/127.0.0.1_5500_contact.html.png)
+
+
 
