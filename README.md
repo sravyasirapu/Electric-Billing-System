@@ -35,3 +35,7 @@ This project was built from the ground up using core front-end technologies, wit
 📂 Project Structure
 
 The project is organized with a clear and scalable file structure, separating assets and logic for better maintainability.
+
+[📷prieview] 
+
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/64c270db48c447357c09ea5fe8d4ba3dc7098624/127.0.0.1_5500_index.html.png)
