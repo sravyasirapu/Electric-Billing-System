@@ -39,3 +39,14 @@ The project is organized with a clear and scalable file structure, separating as
 [📷prieview] 
 
 ![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/64c270db48c447357c09ea5fe8d4ba3dc7098624/127.0.0.1_5500_index.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_performance.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_bill-history.html%20(1).png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_payment.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_calculator.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_disbursement.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_request.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_support.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/1983af66cbfbb605443c2d2f75e9e96d98284599/127.0.0.1_5500_faq.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/baf1c774916e52f02566bf722d3060e883bccdc7/127.0.0.1_5500_about.html.png)
+![image alt](https://github.com/sravyasirapu/Electric-Billing-System/blob/baf1c774916e52f02566bf722d3060e883bccdc7/127.0.0.1_5500_contact.html.png)
+
