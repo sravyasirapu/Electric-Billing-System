@@ -20,7 +20,7 @@ This project is a comprehensive front-end implementation with a wide range of fe
 
  ## 🎥 Demo Preview
 
-![App Demo]()
+![App Demo](https://github.com/sravyasirapu/Electric-Billing-System/blob/1965742af611f016c44a9321763554f6270ccb75/Project%20preview.gif)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
